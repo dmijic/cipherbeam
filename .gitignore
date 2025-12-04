@@ -1,0 +1,10 @@
+# Python venv
+.venv/
+venv/
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# Environment files (if used later)
+.env
