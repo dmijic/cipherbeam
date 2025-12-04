@@ -50,20 +50,20 @@ No intrusive scanning is performed — purely configuration inspection through H
 git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
 cd <REPO_NAME>
 
-# create venv
+### create venv
 
 python3 -m venv .venv
 source .venv/bin/activate
 
-# install dependencies
+### install dependencies
 
 pip install -r requirements.txt
 
-# run locally
+### run locally
 
 python app.py
 
-# App runs on:
+### App runs on:
 
 http://127.0.0.1:5000
 
