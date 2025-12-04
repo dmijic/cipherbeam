@@ -132,7 +132,7 @@
 
     input[type="text"] {
       width: 100%;
-      padding: 13px 14px 13px 36px;
+      padding: 13px 14px 13px 14px;
       border-radius: 999px;
       border: 1px solid var(--border);
       background: rgba(15,23,42,0.9);
@@ -147,16 +147,6 @@
       box-shadow: 0 0 0 1px rgba(59,130,246,0.5);
       background: rgba(15,23,42,0.98);
       transform: translateY(-0.5px);
-    }
-
-    .url-prefix {
-      position: absolute;
-      left: 14px;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 11px;
-      color: var(--muted);
-      opacity: 0.7;
     }
 
     button {
@@ -490,8 +480,7 @@
 
         <form id="scan-form" class="form-row">
           <div class="input-wrap">
-            <span class="url-prefix">https://</span>
-            <input type="text" id="url-input" placeholder="example.com" autocomplete="off" required>
+            <input type="text" id="url-input" placeholder="https://www.example.com" autocomplete="off" required>
           </div>
           <button type="submit" id="scan-btn">
             <span id="btn-icon">Scan</span>
